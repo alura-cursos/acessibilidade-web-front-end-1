@@ -38,7 +38,7 @@
 }
 
 .contatoCampo label,
-.contatoCampo input,
+.contatoCampo input:not([type='checkbox']),
 .contatoCampo textarea {
   display: block;
   width: 100%;

@@ -23,18 +23,17 @@ li[aria-hidden='false'] { display:block ; }
   height: 100vh;
 } 
 
-.pularNavegacao,
-.pularNavegacao:active,
-.pularNavegacao:focus,
-.pularNavegacao:hover {
+.pularNavegacao {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   width: 1px;
   height: 1px;
+  display: block;
   color: transparent;
   position: absolute;
 }
+
 
 .clearfix:after { 
   content: "."; 

@@ -24,9 +24,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
+    
+    <a href="#conteudoPrincipal" class="pularNavegacao">Pular para conteúdo principal</a>
 
     <header class="cabecalho container">
-      <a href="#" class="cabecalho-logo" title="Home Apeperia">
+      <a href="https://www.google.com" class="cabecalho-logo" title="Home Apeperia">
         <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>Logotipo da Apeperia</title>
 <!--                    <desc>Created using Figma</desc>-->
@@ -64,10 +66,9 @@
       </nav>
     </header>
 
-    <main class="conteudo">
-
+    <main class="conteudo" role="main">
       <section class="secaoDestaque">
-        <h1 class="secaoDestaque-titulo">
+        <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
           APLICATIVOS NA MEDIDA
         </h1>
         <h2 class="secaoDestaque-texto">
@@ -112,7 +113,7 @@
 
       <section class="secaoSobre clearfix">
         <div class="container">
-          <img src="img/sobre-apeperia.png" class="secaoSobre-imgDestaque">
+          <img src="img/sobre-apeperia.png" class="secaoSobre-imgDestaque" alt>
           <h2 class="secaoSobre-titulo tituloPadrao">
             SOBRE
           </h2>
@@ -276,22 +277,22 @@
         <div class="container">
           <h2 class="secaoDestaques-titulo tituloPadrao">DESTAQUES</h2>
 
-          <a href="http://blog.apeperia.com.br/design/conheca-primeiras-etapas-criacao-logotipo-teste-teste" class="secaoDestaques-link">
-            <div class="secaoDestaques-destaque">
+          <a href="http://blog.apeperia.com.br/design/conheca-primeiras-etapas-criacao-logotipo-teste-teste" class="secaoDestaques-link" aria-labelledby="tituloDestaque1">
+            <figure class="secaoDestaques-destaque">
               <img src="img/comecando-criar-logotipo.png" class="secaoDestaques-destaque-img" alt="Ferramentas de designer. Ilustração">
-              <p class="secaoDestaques-destaque-titulo"  id="tituloDestaque1">
+              <figpcation class="secaoDestaques-destaque-titulo" id="tituloDestaque1">
                 Conheça as primeiras etapas na criação de um logotipo
-              </p>
-            </div>
+              </figpcation>
+            </figure>
           </a>
 
-          <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link">
-            <div class="secaoDestaques-destaque">
+          <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link" aria-labelledby="tituloDestaque2">
+            <figure class="secaoDestaques-destaque">
               <img src="img/dicas-fotografia.png" class="secaoDestaques-destaque-img" alt="Moça mostrando câmera para rapaz">
-              <p class="secaoDestaques-destaque-titulo"  id="tituloDestaque2">
+              <figcaption class="secaoDestaques-destaque-titulo" id="tituloDestaque2">
                 Veja dicas de como fotografar usando seu celular
-              </p>
-            </div>
+              </figcaption>
+            </figure>
           </a>
 
           <button class="secaoDestaques-form-botao btnPadrao btnPadrao--pequeno" id="abreDialog">
